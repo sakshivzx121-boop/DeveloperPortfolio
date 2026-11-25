@@ -1,0 +1,125 @@
+===== CPU INFORMATION =====
+Architecture:                            x86_64
+CPU op-mode(s):                          32-bit, 64-bit
+Address sizes:                           48 bits physical, 48 bits virtual
+Byte Order:                              Little Endian
+CPU(s):                                  2
+On-line CPU(s) list:                     0,1
+Vendor ID:                               AuthenticAMD
+Model name:                              AMD EPYC 7763 64-Core Processor
+CPU family:                              25
+Model:                                   1
+Thread(s) per core:                      2
+Core(s) per socket:                      1
+Socket(s):                               1
+Stepping:                                1
+BogoMIPS:                                4890.85
+Flags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves user_shstk clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
+Virtualization:                          AMD-V
+Hypervisor vendor:                       Microsoft
+Virtualization type:                     full
+L1d cache:                               32 KiB (1 instance)
+L1i cache:                               32 KiB (1 instance)
+L2 cache:                                512 KiB (1 instance)
+L3 cache:                                32 MiB (1 instance)
+NUMA node(s):                            1
+NUMA node0 CPU(s):                       0,1
+Vulnerability Gather data sampling:      Not affected
+Vulnerability Indirect target selection: Not affected
+Vulnerability Itlb multihit:             Not affected
+Vulnerability L1tf:                      Not affected
+Vulnerability Mds:                       Not affected
+Vulnerability Meltdown:                  Not affected
+Vulnerability Mmio stale data:           Not affected
+Vulnerability Reg file data sampling:    Not affected
+Vulnerability Retbleed:                  Not affected
+Vulnerability Spec rstack overflow:      Vulnerable: Safe RET, no microcode
+Vulnerability Spec store bypass:         Vulnerable
+Vulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:                Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                     Not affected
+Vulnerability Tsa:                       Vulnerable: Clear CPU buffers attempted, no microcode
+Vulnerability Tsx async abort:           Not affected
+Vulnerability Vmscape:                   Not affected
+===== MEMORY INFORMATION =====
+               total        used        free      shared  buff/cache   available
+Mem:           7.8Gi       1.8Gi       585Mi        64Mi       5.7Gi       5.9Gi
+Swap:             0B          0B          0B
+===== STORAGE INFORMATION =====
+NAME    MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0     7:0    0    74M  1 loop 
+loop1     7:1    0 115.2M  1 loop 
+loop2     7:2    0  44.7M  1 loop 
+loop3     7:3    0   257G  0 loop 
+loop4     7:4    0    32G  0 loop /workspaces/.codespaces/.persistedshare
+                                  /var/lib/containerd
+                                  /home/vscode/.minikube
+                                  /var/lib/docker
+                                  /etc/hosts
+                                  /etc/hostname
+                                  /etc/resolv.conf
+                                  /workspaces
+loop5     7:5    0   500M  0 loop 
+sda       8:0    0   512G  0 disk 
+└─sda1    8:1    0   512G  0 part 
+sdb       8:16   0    45G  0 disk 
+└─sdb1    8:17   0    45G  0 part /tmp
+sdc       8:32   0    30G  0 disk 
+├─sdc1    8:33   0  29.9G  0 part /workspaces/.codespaces/shared
+│                                 /.codespaces/bin
+│                                 /vscode
+│                                 /usr/sbin/docker-init
+├─sdc14   8:46   0     4M  0 part 
+└─sdc15   8:47   0   106M  0 part 
+sr0      11:0    1   628K  1 rom  
+===== KERNEL INFORMATION =====
+Linux codespaces-ee5a1a 6.8.0-1070-azure #78~22.04.1-Ubuntu SMP Thu Sep 24 18:46:45 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+===== HOME DIRECTORY =====
+total 112
+drwxr-x--- 1 codespace codespace 4096 Nov 25 17:58 .
+drwxr-xr-x 1 root      root      4096 Nov 25 17:57 ..
+drwxrwxr-x 2 codespace codespace 4096 Oct 28 18:51 .anaconda
+-rw-r--r-- 1 codespace codespace  220 Mar 31  2024 .bash_logout
+-rw-r--r-- 1 codespace codespace 5885 Oct 28 18:48 .bashrc
+drwxrwxr-x 1 codespace codespace 4096 Nov 25 17:58 .cache
+drwxrwxr-x 3 codespace codespace 4096 Oct 28 18:51 .conda
+drwxr-xr-x 1 codespace codespace 4096 Nov 25 17:59 .config
+drwx------ 5 codespace codespace 4096 Nov 25 18:00 .copilot
+lrwxrwxrwx 1 root      root        47 Nov 25 17:58 .docker -> /workspaces/.codespaces/.persistedshare/.docker
+lrwxrwxrwx 1 root      root        17 Oct 28 19:05 .dotnet -> /usr/share/dotnet
+-rw-r--r-- 1 codespace codespace  126 Nov 25 17:58 .gitconfig
+drwxr-xr-x 2 root      root      4096 Oct 28 19:05 .hugo
+drwxrwxr-x 2 codespace codespace 4096 Oct 28 19:05 .jupyter
+drwxrwxr-x 6 codespace codespace 4096 Oct 28 19:05 .local
+drwxr-xr-x 2 root      root      4096 Oct 28 19:05 .maven
+drwxr-xr-x 2 codespace root      4096 Oct 28 19:01 .minikube
+drwxrwxr-x 4 codespace codespace 4096 Oct 28 18:50 .npm
+drwxr-xr-x 1 codespace codespace 4096 Oct 28 19:00 .oh-my-zsh
+drwxrwxr-x 2 codespace codespace 4096 Oct 28 19:05 .php
+-rw-r--r-- 1 codespace codespace  807 Mar 31  2024 .profile
+drwxr-xr-x 2 root      root      4096 Oct 28 19:05 .python
+drwxr-xr-x 2 root      root      4096 Oct 28 19:05 .ruby
+drwxr-xr-x 5 codespace codespace 4096 Nov 25 17:58 .vscode-remote
+-rw-r--r-- 1 codespace codespace   22 Oct 28 18:48 .zprofile
+-rw-r--r-- 1 codespace codespace 4196 Oct 28 18:48 .zshrc
+lrwxrwxrwx 1 root      root        33 Oct 28 19:05 java -> /usr/local/sdkman/candidates/java
+lrwxrwxrwx 1 root      root        20 Oct 28 19:05 nvm -> /usr/local/share/nvm
+===== RUNNING PROCESSES =====
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+codespa+       1  0.0  0.0   1136   808 ?        Ss   17:57   0:00 /sbin/docker-init -- /bin/sh -c echo Container started trap "exit 0" 15 /usr/local/share/ssh-init.sh /usr/local/share/docker-init.sh exec "$@" while sleep 1 & wait $!; do :; done -
+codespa+       7  0.0  0.0   2804  1748 ?        S    17:57   0:00 /bin/sh -c echo Container started trap "exit 0" 15 /usr/local/share/ssh-init.sh /usr/local/share/docker-init.sh exec "$@" while sleep 1 & wait $!; do :; done -
+root         186  0.0  0.0  12024  2976 ?        Ss   17:57   0:00 sshd: /usr/sbin/sshd [listener] 0 of 10-100 startups
+root         355  0.0  0.6 1828604 50408 ?       Sl   17:57   0:00 /usr/bin/containerd --config /etc/containerd/config.toml
+root         421  0.1  1.1 1959556 95380 ?       Sl   17:57   0:00 dockerd --containerd /run/containerd/containerd.sock --dns 168.63.129.16
+codespa+    1518  0.0  0.0   2804  1812 ?        Ss   17:58   0:00 /bin/sh
+root        1543  0.0  0.0   2804  1908 ?        Ss   17:58   0:00 /bin/sh
+codespa+    1790  0.0  0.0   2808  1928 ?        Ss   17:58   0:00 sh /home/codespace/.vscode-remote/bin/661626d0e72f97806550790a98fb87116c9db825/bin/code-server --log trace --force-disable-user-env --server-data-dir /home/codespace/.vscode-remote --accept-server-license-terms --host 127.0.0.1 --port 0 --connection-token-file /home/codespace/.vscode-remote/data/Machine/.connection-token-661626d0e72f97806550790a98fb87116c9db825 --extensions-download-dir /home/codespace/.vscode-remote/extensionsCache --install-builtin-extension GitHub.vscode-pull-request-github --install-builtin-extension github.github-vscode-theme --install-builtin-extension github.codespaces --do-not-sync --start-server  --enable-remote-auto-shutdown --skip-requirements-check
+codespa+    1799  1.9  1.7 1779252 143728 ?      Sl   17:58   0:05 /vscode/bin/linux-x64/661626d0e72f97806550790a98fb87116c9db825/node /vscode/bin/linux-x64/661626d0e72f97806550790a98fb87116c9db825/out/server-main.js --log trace --force-disable-user-env --server-data-dir /home/codespace/.vscode-remote --accept-server-license-terms --host 127.0.0.1 --port 0 --connection-token-file /home/codespace/.vscode-remote/data/Machine/.connection-token-661626d0e72f97806550790a98fb87116c9db825 --extensions-download-dir /home/codespace/.vscode-remote/extensionsCache --install-builtin-extension GitHub.vscode-pull-request-github --install-builtin-extension github.github-vscode-theme --install-builtin-extension github.codespaces --do-not-sync --start-server  --enable-remote-auto-shutdown --skip-requirements-check
+===== DISK USAGE =====
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          32G   12G   19G  38% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+/dev/root        29G   17G   13G  57% /vscode
+/dev/loop4       32G   12G   19G  38% /workspaces
+/dev/sdb1        44G  4.1G   38G  10% /tmp
