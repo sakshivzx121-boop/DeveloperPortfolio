@@ -27,8 +27,8 @@ and developer portfolio.
 
 ## Screenshots
 - Screenshots/backup_demo.png
-- Screenshots/github_profile.png
-- Screenshots/linkedin_profile.png
+- Screenshots/Screenshots:github_profile.png
+- Screenshots/Screenshots:linkedin_profile.png
 
 ## Profiles
 - GitHub: https://github.com/sakshivzx121-boop
