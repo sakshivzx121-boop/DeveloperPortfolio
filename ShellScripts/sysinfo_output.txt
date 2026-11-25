@@ -1,0 +1,22 @@
+======================================
+       SYSTEM INFORMATION REPORT
+Name: Sakshi Vats
+Roll Number: 2601730015
+Date: Wed Nov 25 18:14:07 UTC 2026
+======================================
+
+CPU INFORMATION:
+CPU Model:                              AMD EPYC 7763 64-Core Processor
+CPU Cores: 2
+
+MEMORY INFORMATION:
+Total Memory: 7.8Gi
+Used Memory: 1.9Gi
+
+TOP 3 PROCESSES BY CPU USAGE:
+    PID COMMAND         %CPU
+   1822 MainThread       2.0
+   1799 MainThread       0.6
+   2111 MainThread       0.3
+
+Report generated successfully.
